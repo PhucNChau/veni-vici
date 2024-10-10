@@ -53,3 +53,65 @@ button.attribute:hover {
   color: #f89d48;
   border-color: #f89d48;
 }
+
+.left-sidebar {
+  position: fixed;
+  background-color: #d4d4d4;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 220px;
+  padding: 1em 0.8em;
+  overflow-y: scroll;
+}
+
+.ban-attribute {
+  background-color: #fb6544;
+  color: #f9f9f9;
+  padding: .3em 0.7em;
+  font-size: 14px;
+
+}
+
+.attributes-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.attributes-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.right-sidebar {
+  position: fixed;
+  background-color: #e3e3e380;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  padding: 1em 0.8em;
+  overflow-y: scroll;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+.history img {
+  object-fit: cover;
+  width: 100px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.history p {
+  margin-top: 0.2em;
+  font-size: 1.1em;
+}
